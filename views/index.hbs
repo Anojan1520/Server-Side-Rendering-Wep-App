@@ -1,0 +1,85 @@
+{{!-- 
+    <main>
+        <div class="main1">
+            <h1>Welcome To Our Page</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nobis totam possimus libero blanditiis
+                voluptas numquam? Nulla, nostrum? Nisi molestiae repudiandae ipsa possimus nihil deleniti? Officia atque
+                eum unde suscipit.
+            </p>
+            {{#if detailsExists}}
+              {{#each details}}
+            <h3>{{this}}</h3>
+              {{/each}}
+            {{else}}
+             <h1>not available</h1>
+            {{/if}}
+        </div>
+
+    </main> --}}
+
+
+
+<body>
+    <div class="layout" id="lay">
+
+    </div>
+    <div class="form" id="mod">
+        <div class="back">
+            <label>Id:</label><br>
+            <input type="text" id="unic"><br>
+            <label for="">First Name:</label><br>
+            <input type="text" id="name"><br>
+            <label >E-mail:</label><br>
+            <input type="email" id="mail"><br>
+            <label for="">Gender:</label><br>
+            <input type="radio" name="gen" id="gender" value="Male">Male
+            <input type="radio" name="gen" id="gender" value="Female">Female<br>
+            <label for="">Status:</label><br>
+            <select id="sel"><br>
+                <option value="Active">Active</option>
+                <option value="Not available">Not available</option>
+            </select> <br>
+            <button onclick="sub()" class="form-btn">Submit</button>
+            <button onclick="can()" class="form-btn red">Exit</button>
+        </div>
+             
+    </div>
+    <div class="nav-head">
+        <h1>UNICOM Management System</h1>
+    </div>
+    <button class="new" onclick="pop()">
+        <i class="fa fa-user" aria-hidden="true"></i><h5>New user</h5>
+    </button>
+    <div class="content">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>@Email</th>
+                    <th>Gender</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>UT01520</td>
+                <td>Anojan</td>
+                <td>anojan@gmail.com</td>
+                <td>Male</td>
+                <td>Active</td>
+                <td><button class="pen"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button class="trash" onclick="trash(event)"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
+            </tr>
+
+
+        </table>
+
+
+
+
+
+
+
+    </div>
+    <script src="/public/index.js"></script>
+</body>

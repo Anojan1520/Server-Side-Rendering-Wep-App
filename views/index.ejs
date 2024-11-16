@@ -1,0 +1,23 @@
+<%-include('header.ejs')%>
+    <main>
+        <div class="main1">
+            <h1>Welcome To Our Page</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nobis totam possimus libero blanditiis
+                voluptas numquam? Nulla, nostrum? Nisi molestiae repudiandae ipsa possimus nihil deleniti? Officia atque
+                eum unde suscipit.
+            </p>
+           
+            <h4>
+                <% if(details.length>0){ %>
+                <%details.forEach((detail)=>{%>
+                <h3><%=detail%></h3>
+                <% }) %>
+                <% } else{ %>
+                    <h3>Onnum Illa</h3>
+                    <% } %>
+            </h4>
+
+        </div>
+    </main>
+    <%-include('footer.ejs')%>  
+

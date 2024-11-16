@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.main1{
+    width: 50%;
+}
+.main1 h1{
+    font-size: 80px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nav-head{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .content{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  
+  }
+  
+  table{
+    border-spacing: 0;
+    width: 75%;
+    border-bottom: solid 1px;
+  }
+  th{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  
+  }
+  td{
+    text-align: center;
+    padding: 10px;
+  }
+  .new{
+    font-size: 30px;
+    display: flex;
+    padding: 15px 10px;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 13%;
+    color: rgb(36, 149, 158);
+    border: none;
+  }
+  .new:hover{
+    color: black;
+  
+  }
+  .pen{
+    font-size: 25px;
+    background-color: white;
+    border: none;
+    color: rgb(54, 41, 238);
+  }
+  .pen:hover{
+    color: black;
+  }
+  .trash{
+    font-size: 25px;
+    background-color: white;
+    border: none;
+    color: rgb(245, 37, 37);
+    margin-left: 10px;
+  }
+  .trash:hover{
+    color: black;
+  }
+  .layout{
+    position: absolute;
+    z-index: 11;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    display: none;
+  }
+  .form{
+    position: absolute;
+    z-index: 12;
+    width: 100%;
+    margin-top: 60px;
+    font-size: 30px;
+    display: none;
+  }
+  .back{
+    width: 30%;
+    margin-left: 600px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius:20px ;
+  }
+  input{
+    font-size: 25px;
+    border: none;
+    border-bottom: solid green;
+  }
+  input:hover{
+    border-color: rgb(46, 190, 246);
+  }
+  select{
+    font-size: 25px;
+  
+  }
+  .form-btn{
+      font-size: 25px;
+      margin-top: 10px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 15px 10px;
+      width: 100%;
+  
+  
+  }
+  .red{
+    background-color: red;
+  }

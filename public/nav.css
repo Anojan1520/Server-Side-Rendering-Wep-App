@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #00abff;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.nav-logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;    
+}
+.nav-content{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+
+    
+}
+.nav-content h3 a{
+    text-decoration: none;
+    color:black;
+    padding: 30px;
+    font-size: 25px;    
+}

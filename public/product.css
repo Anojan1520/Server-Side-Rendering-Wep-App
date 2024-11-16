@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    justify-content: center;
+    margin-top:200px ;
+
+}
+.con{
+    background-color: rgb(93, 209, 64);
+    border-radius: 20px;
+    padding: 20px;
+    width:50% ;
+    margin-left: 26%;
+
+    
+}
+.con h1{
+    font-size: 70px;
+    color: white;
+
+}
+.con button{
+    background-color: black;
+    color: white;
+    border-radius: 15px ;
+    padding: 15px 10px;
+    border: none;
+}
+.con p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
